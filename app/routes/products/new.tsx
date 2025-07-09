@@ -85,3 +85,14 @@ export default function PostProduct({
 		</main>
 	)
 }
+
+// Meta function to set the browser tab's title and the DOM's meta tag's name and content attributes
+export function meta() {
+	return [
+		{ title: 'Add New Product' },
+		{
+			name: 'description',
+			content: 'Add new product section for admins.',
+		},
+	]
+}
