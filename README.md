@@ -6,37 +6,38 @@ Now, you will need to create a free tier Vercel account, and you have to set up 
 
 This app is deployed here: [https://react-router-framework-mode-ssr-ver.vercel.app/](https://react-router-framework-mode-ssr-ver.vercel.app/)
 
-A YouTube video to accompany this project is coming soon.
+YouTube video: https://youtu.be/xIXBA9JzYMM
 
 ## Project folder structure
 
 RRv7-Vercel/
-├── 📄 package.json
-├── 📄 README.md
-├── 📄 vite.config.ts
-├── 📄 react-router.config.ts
-├── 📄 tsconfig.json
+├── package.json
+├── README.md
+├── vite.config.ts
+├── react-router.config.ts
+├── tsconfig.json
 │
-├── 📁 app/
-│   ├── 📄 root.tsx
-│   ├── 📄 app.css
-│   ├── 📄 routes.ts
-│   ├── 📁 components/
-│   │   └── 📄 Navbar.tsx
-│   ├── 📁 routes/
-│   │   ├── 📄 index.tsx
-│   │   ├── 📄 CatchAll.tsx
-│   │   └── 📁 products/
-│   │       ├── 📄 index.tsx
-│   │       ├── 📄 [id].tsx
-│   │       └── 📄 new.tsx
-│   └── 📁 types/
-│       └── 📄 product.ts
+├── app/
+│   ├── root.tsx
+│   ├── app.css
+│   ├── routes.ts
+│   ├── components/
+│   │   └── Navbar.tsx
+│   ├── routes/
+│   │   ├── index.tsx
+│   │   ├── CatchAll.tsx
+│   │   └── products/
+│   │       ├── index.tsx
+│   │       ├── [id].tsx
+│   │       └── new.tsx
+│   └── types/
+│       └── product.ts
 │
-├── 📁 public/
-│   └── 📄 favicon.ico
+├── public/
+│   └── favicon.ico
 │
-└── 📁 build/ (generated)
-    ├── 📁 client/
-    └── 📁 server/
-		
+└── build/ (generated)
+    ├── client/
+    └── server/
+
+If this repository helped you, please consider giving it a star ⭐️. And if you would like to contribute to my [coffee fund](https://www.paypal.com/donate/?business=XNPNP5FWN4B2A&no_recurring=0&item_name=I+provide+free+computer+science+training+to+everyone&currency_code=USD).  Thank you!
